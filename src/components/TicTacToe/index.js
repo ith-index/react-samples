@@ -38,13 +38,15 @@ class TicTacToe extends Component {
   onTileClick(index) {
     if (!this.state.winResult) {
       const tiles = this.state.tiles.slice();
-      const moveCount = this.state.moveCount + 1;
-      tiles[index] = this.currentMovePiece(); 
-      this.setState({
-        tiles: tiles,
-        moveCount: moveCount,
-        winResult: this.calculateResult(tiles, moveCount),
-      });
+      if (!tiles[index]) {
+        const moveCount = this.state.moveCount + 1;
+        tiles[index] = this.currentMovePiece(); 
+        this.setState({
+          tiles: tiles,
+          moveCount: moveCount,
+          winResult: this.calculateResult(tiles, moveCount),
+        });
+      }
     }
   }
 
