@@ -1,0 +1,11 @@
+.new-item {
+  margin-bottom: 8px;
+}
+
+.new-item > .form {
+  display: flex;
+}
+
+.new-item > .form > .input-name {
+  flex: 1;
+}

@@ -1,0 +1,9 @@
+.rgb-slider {
+  display: flex;
+  align-items: center;
+}
+
+.rgb-slider > .label {
+  font-family: Courier;
+  font-weight: bold;
+}

@@ -1,0 +1,12 @@
+.calculator {
+
+}
+
+.calculator > .calculation {
+  min-height: 20px;
+  width: 160px;
+  text-align: right;
+  overflow: auto;
+  white-space: nowrap;
+  margin-bottom: 8px;
+}

@@ -1,0 +1,17 @@
+.rgb-picker {
+  display: flex;
+  flex-direction: row;
+}
+
+.rgb-picker > .sliders {
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-right: 8px;
+}
+
+.rgb-picker > .color {
+  height: 100px;
+  width: 100px;
+  box-shadow: 0px 0px 5px grey;
+}

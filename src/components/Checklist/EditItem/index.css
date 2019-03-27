@@ -1,0 +1,7 @@
+.edit-item {
+  display: flex;
+}
+
+.edit-item > .input-name {
+  flex: 1;
+}

@@ -1,0 +1,9 @@
+.tic-tac-toe {
+  text-align: center;
+}
+
+.tic-tac-toe > .game-status {
+  font-size: 1.25em;
+  font-weight: bold;
+  margin-bottom: 8px;
+}

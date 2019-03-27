@@ -1,0 +1,7 @@
+.item {
+  display: flex;
+}
+
+.item > .name {
+  flex: 1;
+}

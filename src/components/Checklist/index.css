@@ -1,0 +1,22 @@
+.checklist {
+
+}
+
+.checklist > .header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.checklist > .header > .name {
+  flex: 1;
+  font-weight: bold;
+  font-size: 1.25em;
+}
+
+.checklist > .items {
+  height: 100px;
+  width: 200px;
+  overflow: auto;
+}
