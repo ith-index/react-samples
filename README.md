@@ -3,5 +3,5 @@
 ## Preview
 
 <p align="center">
-  <img width="50%" src="preview.png">
+  <img src="preview.png">
 </p>
